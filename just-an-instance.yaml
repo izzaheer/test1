@@ -29,7 +29,7 @@ Resources:
       Properties: 
         ImageId: !Ref LatestAmiId
         KeyName: "i88i"
-        InstanceType:  c5d.large
+        InstanceType:  t2.large
         SecurityGroups:
           -  SSH-WEB
         Tags:
